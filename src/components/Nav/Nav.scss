@@ -1,0 +1,29 @@
+@use "../../styles/colors" as *;
+@use "../../styles/typography" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.nav {
+    padding: 1rem;
+
+&__container {
+    display: flex;
+    flex-direction: column;
+}
+
+&__row {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+
+    &--single {
+        text-align: center;
+    }
+}
+
+&__logo {
+    text-align: center;
+    margin: 5.5rem 0;
+}
+
+}
