@@ -2,9 +2,17 @@ import "./Bedroom.scss";
 
 function Bedroom() {
   return (
-    <>
-    <p>Hello</p>
-    </>
+    <section className="bedroom">
+      <h1 className="bedroom__title">Bedroom</h1>
+    <div className="bedroom__gallery">
+      <div className="bedroom__card"></div>
+      <div className="bedroom__card"></div>
+      <div className="bedroom__card"></div>
+      <div className="bedroom__card"></div>
+      <div className="bedroom__card"></div>
+      <div className="bedroom__card"></div>
+    </div>
+    </section>
   );
 }
 
