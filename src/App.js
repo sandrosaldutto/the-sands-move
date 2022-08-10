@@ -15,12 +15,12 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Bedroom/>
-        <Office/>
+        {/* <Office/>
         <Dining/>
         <Living/>
         <Storage/>
         <Kitchen/>
-        <Miscelanious/>
+        <Miscelanious/> */}
       </BrowserRouter>
     </>
   );
