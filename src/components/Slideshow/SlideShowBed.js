@@ -4,7 +4,7 @@ import bedPhotoOne from "../../assets/images/bedroom-bed-1.jpg";
 import bedPhotoTwo from "../../assets/images/bedroom-bed-2.jpg";
 import bedPhotoThree from "../../assets/images/bedroom-bed-3.jpg";
 
-function Slideshow() {
+function SlideShowBed() {
     return (
         <>
         <Carousel>
@@ -53,4 +53,4 @@ function Slideshow() {
     );
   }
   
-  export default Slideshow;
+  export default SlideShowBed;

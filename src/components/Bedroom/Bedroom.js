@@ -1,5 +1,5 @@
 import "./Bedroom.scss";
-import Carousel from "../Slideshow/Slideshow";
+import CarouselBed from "../Slideshow/SlideShowBed";
 
 function Bedroom() {
   return (
@@ -7,13 +7,7 @@ function Bedroom() {
       <h1 className="bedroom__title">Bedroom</h1>
       <div className="bedroom__gallery">
         <div className="bedroom__card">
-          <Carousel/>
-        </div>
-        <div className="bedroom__card">
-          <Carousel/>
-        </div>
-        <div className="bedroom__card">
-          <Carousel/>
+          <CarouselBed/>
         </div>
       </div>
     </section>
