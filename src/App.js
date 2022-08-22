@@ -7,7 +7,7 @@ import Dining from "./components/Dining/Dining"
 import Living from "./components/Living/Living"
 import Storage from "./components/Storage/Storage"
 import Kitchen from "./components/Kitchen/Kitchen"
-import Miscelanious from "./components/Miscelanious/Miscelanious"
+import Misc from "./components/Miscelanious/Miscelanious"
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Bedroom/>
         <Living/>
         <Storage/>
+        <Misc/>
       </BrowserRouter>
     </>
   );
