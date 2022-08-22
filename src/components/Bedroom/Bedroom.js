@@ -1,5 +1,6 @@
 import "./Bedroom.scss";
 import CarouselBed from "../Slideshow/SlideShowBed";
+import CarouselBedTables from "../Slideshow/SlideShowBedTables";
 
 function Bedroom() {
   return (
@@ -8,6 +9,9 @@ function Bedroom() {
       <div className="bedroom__gallery">
         <div className="bedroom__card">
           <CarouselBed/>
+        </div>
+        <div className="bedroom__card">
+          <CarouselBedTables/>
         </div>
       </div>
     </section>

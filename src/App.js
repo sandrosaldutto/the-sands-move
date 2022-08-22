@@ -15,12 +15,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Bedroom/>
-        {/* <Office/>
-        <Dining/>
         <Living/>
-        <Storage/>
-        <Kitchen/>
-        <Miscelanious/> */}
       </BrowserRouter>
     </>
   );

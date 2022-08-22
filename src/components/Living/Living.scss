@@ -2,3 +2,32 @@
 @use "../../styles/typography" as *;
 @use "../../styles/variables" as *;
 @use "../../styles/mixins" as *;
+
+.living {
+    display: flex;
+    flex-direction: column;
+  
+    &__gallery {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    &__card {
+      height: 100%;
+      width: 20rem;
+      margin: 1rem;
+    }
+  
+    &__title {
+      margin: 5rem 0 2.5rem 0;
+      text-align: center;
+    }
+
+    &__text-row-one {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-top: .5rem;
+    }
+  }
