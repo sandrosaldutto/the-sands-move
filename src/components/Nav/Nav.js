@@ -28,12 +28,21 @@ function Nav() {
             >
               Living
             </Link>
-            <Link className="nav__link">Office</Link>
+            <Link
+              className="nav__link"
+              to="storage"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={250}
+            >
+              Storage
+            </Link>
           </div>
           <div className="nav__row">
+            <Link className="nav__link">Office</Link>
             <Link className="nav__link">Kitchen</Link>
             <Link className="nav__link">Dining</Link>
-            <Link className="nav__link">Storage</Link>
           </div>
           <div className="nav__row"></div>
           <Link className="nav__link">Misc</Link>

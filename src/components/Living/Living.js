@@ -14,6 +14,7 @@ function Living() {
             <h2>Floor Seats</h2>
             <p> 50$ (2 Seats)</p>
           </div>
+          <p>Grey, round floor poufs, matching set of 2</p>
         </div>
         <div className="living__card">
           <TvUnit/>

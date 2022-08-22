@@ -16,6 +16,7 @@ function App() {
         <Nav/>
         <Bedroom/>
         <Living/>
+        <Storage/>
       </BrowserRouter>
     </>
   );
