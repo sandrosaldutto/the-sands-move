@@ -14,6 +14,7 @@
     justify-content: center;
     padding: 0 1rem;
   }
+
   &__card {
     height: 100%;
     width: 20rem;
@@ -27,7 +28,31 @@
     color: rgb(61, 61, 61);
 
     @include tablet {
-      margin-top: 10rem;
+      margin-top: 7.5rem;
+      margin-bottom: 3rem;
     }
+  }
+
+  &__decription {
+    text-align: center;
+    color: rgb(124, 124, 124);
+    font-size: .9rem;
+    margin-top: .75rem;
+  }
+
+  &__item {
+    font-size: 1.5rem;
+  }
+
+  &__price {
+    color: rgb(44, 44, 44);
+  }
+
+  &__text-row-one {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: .25px solid rgb(179, 179, 179);
   }
 }
