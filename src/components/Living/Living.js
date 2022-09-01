@@ -11,18 +11,18 @@ function Living() {
         <div className="living__card">
           <FloorSeats/>
           <div className="living__text-row-one">
-            <h2>Floor Seats</h2>
-            <p> 50$ (2 Seats)</p>
+            <h2 className="living__item">Floor Seats</h2>
+            <h4 className="living__price"> 50$ </h4>
           </div>
-          <p>Grey, round floor poufs, matching set of 2</p>
+          <p className="living__decription">Grey, round floor poufs, matching set of 2</p>
         </div>
         <div className="living__card">
           <TvUnit/>
           <div className="living__text-row-one">
-            <h2>TV Unit</h2>
-            <p> 50$ </p>
+            <h2 className="living__item">TV Unit</h2>
+            <h4 className="living__price"> 50$ </h4>
           </div>
-          <p>3 large drawers and shelves with few dings.</p>
+          <p className="living__decription">3 large drawers and shelves with few dings.</p>
         </div>
       </div>
     </section>
